@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/widget_button"
+        android:layout_width="match_parent"
+        android:src="@drawable/ic_garageropener"
+        android:scaleType="fitCenter"
+        android:background="?android:selectableItemBackground"
+        android:adjustViewBounds="true"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/btntxt_trigger"/>
+
+</FrameLayout>

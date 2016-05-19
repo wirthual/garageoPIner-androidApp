@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/consettings">
+        <EditTextPreference
+            android:key="ipadress"
+            android:defaultValue="192.168.6.1"
+            android:summary="@string/ipaddresssummary"
+            android:title="@string/ipaddress" />
+        <EditTextPreference
+            android:key="port"
+            android:defaultValue="80"
+            android:summary="@string/portsummary"
+            android:title="@string/port" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/credentials">
+        <EditTextPreference
+            android:defaultValue="admin"
+            android:key="username"
+            android:summary="@string/usernamesummary"
+            android:title="@string/username" />
+        <EditTextPreference
+            android:defaultValue="garageopiner"
+            android:key="password"
+            android:inputType="textPassword"
+            android:summary="@string/passwordsummary"
+            android:title="@string/password" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/garage1">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="twodoors"
+            android:summary="@string/twodoorssummary"
+            android:title="@string/twodoors">
+        </CheckBoxPreference>
+        <EditTextPreference
+            android:dependency="twodoors"
+            android:defaultValue="@string/door1"
+            android:key="door1"
+            android:summary="@string/door1summary"
+            android:title="@string/door1name" />
+        <EditTextPreference
+            android:dependency="twodoors"
+            android:defaultValue="@string/door2"
+            android:key="door2"
+            android:summary="@string/door2summary"
+            android:title="@string/door2name" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/timecontrol">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="timecontrol"
+            android:summary="@string/timecontrolsummary"
+            android:title="@string/timecontrol">
+        </CheckBoxPreference>
+
+
+        <ListPreference
+            android:defaultValue="@string/durationdefault"
+            android:dependency="timecontrol"
+            android:dialogTitle="@string/durationdialog"
+            android:entries="@array/durationvalues"
+            android:entryValues="@array/durationvalues"
+            android:key="time"
+            android:title="@string/duration" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/timecontrol">
+
+        <Preference
+            android:key="version"
+            android:title="Version"
+            android:summary="2.0" />
+    </PreferenceCategory>
+</PreferenceScreen>

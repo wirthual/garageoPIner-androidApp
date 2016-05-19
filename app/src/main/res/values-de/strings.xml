@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">garage oPIner</string>
+    <string name="Settings">Einstellungen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="credentials">Anmeldedaten</string>
+    <string name="consettings">Verbindungseinstellungen</string>
+    <string name="ipaddress">IP-Adresse</string>
+    <string name="ipaddresssummary">IP-Adresse des Raspberry PIs</string>
+    <string name="port">Port</string>
+    <string name="portsummary">Port auf dem garageoPIner läuft. Default 80</string>
+    <string name="password">Passwort</string>
+    <string name="passwordsummary">Passwort zur Anmeldung</string>
+    <string name="username">Username</string>
+    <string name="usernamesummary">Username zur Anmeldung</string>
+    <string name="garage1">Garageneinstellung</string>
+    <string name="twodoors">2. Tor aktivieren</string>
+    <string name="twodoorssummary">Erlaubt das Ansteuern von 2 Toren</string>
+    <string name="timecontrol">Zeitsteuerung</string>
+    <string name="timecontrolsummary">Ermöglicht ein zweites Schalten nach bestimmtem Zeitintervall</string>
+    <string name="duration">Zeitintervall</string>
+    <string name="durationdefault">3</string>
+    <string name="durationdialog">Zeitintervall in Minuten:</string>
+    <string name="door1"> Tor 1:</string>
+    <string name="door1name">Name für Tor 1</string>
+    <string name="door1summary">Name für das erste Tor</string>
+
+    <string name="door2"> Tor 2:</string>
+    <string name="door2name">Name für Tor 2</string>
+    <string name="door2summary"> Name für das zweite Tor</string>
+    <string name="minutes">Minuten</string>
+
+    <string-array name="durationvalues">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="btntxt_trigger">Öffnen / Schließen</string>
+    <string name="btntxt_triggertime">Zeitschaltung </string>
+    <string name="service_name">garage oPIner Communication Service</string>
+    <string name="now">Jetzt</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="notificationtitle">Zeitschaltung</string>
+    <string name="notificationsubtitle">Schaltet in </string>
+    <string name="seconds">Sekunden</string>
+    <string name="connectionerror">Fehler beim Verbindungsaufbau</string>
+
+    <string name="open">Öffnen</string>
+    <string name="close">Schließen</string>
+    <string name="disclaimer_text">THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="about">About</string>
+
+</resources>
